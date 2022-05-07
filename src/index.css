@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "IranSans";
+  src: url('./assets/font/IRANSansMobile-Medium.eot') format('embedded-opentype'), url("./assets/font/IRANSansMobile-Medium.woff") format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "IranSans !important";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: "IranSans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+span,
+b,
+p {
+  font-family: "IranSans" !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
